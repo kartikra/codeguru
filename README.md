@@ -1,4 +1,4 @@
-##codeguru
+## codeguru
 
 My attempt to solve interesting [leetcode](https://leetcode.com/problemset/all/) problems
 
