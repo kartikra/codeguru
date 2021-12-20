@@ -1,4 +1,4 @@
-package com.leetcode.codeguru.array;
+package com.leetcode.codeguru;
 
 import com.leetcode.codeguru.ProblemSolution;
 
