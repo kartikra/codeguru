@@ -46,7 +46,7 @@ public class ValidParentheses implements ProblemSolution {
             }
         }
 
-        // if string has to be balanced, all characters should have been removed by now
+        // if string is balanced, all characters would have been removed by now
         return (syntaxCheck.size() == 0) ? Boolean.TRUE : Boolean.FALSE;
 
     }

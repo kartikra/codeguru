@@ -9,4 +9,8 @@ public class Template implements ProblemSolution {
         logger.info("all test cases passed");
 
     }
+
+    public static void main(String[] args) {
+
+    }
 }

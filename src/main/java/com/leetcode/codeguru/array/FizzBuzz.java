@@ -17,23 +17,10 @@ public class FizzBuzz implements ProblemSolution  {
         List<String> result = new ArrayList<>();
 
         for(int i=1; i<=n; i++) {
-
-            boolean divisibleBy3 = (i % 3 == 0);
-            boolean divisibleBy5 = (i % 5 == 0);
-
-            if (divisibleBy3 && divisibleBy5) {
-                // Divides by both 3 and 5, add FizzBuzz
-                result.add("FizzBuzz");
-            } else if (divisibleBy3) {
-                // Divides by 3, add Fizz
-                result.add("Fizz");
-            } else if (divisibleBy5) {
-                // Divides by 5, add Buzz
-                result.add("Buzz");
-            } else {
-                // Not divisible by 3 or 5, add the number
-                result.add(Integer.toString(i));
-            }
+            String tmpResult = "";
+            tmpResult+= (i%3)==0 ? "Fizz": "";
+            tmpResult+= (i%5)==0 ? "Buzz": "";
+            result.add(tmpResult.isEmpty() ? Integer.toString(i): tmpResult);
         }
         return result;
     }
