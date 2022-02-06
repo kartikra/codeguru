@@ -1,4 +1,4 @@
-package com.leetcode.codeguru.linkedlist;
+package com.leetcode.codeguru.problems.linkedlist;
 
 import com.leetcode.codeguru.ProblemSolution;
 
@@ -12,9 +12,11 @@ public class RemoveNthFromEnd implements ProblemSolution {
         // move fast pointer at n steps. i
         for (int i=0; i < n; i++){
 
-            // Edge Cases:- if end is reaches sooner, then remove head
+            // Edge Cases:- if end is reaches sooner
+            // list of length 2 and n = 2, in these cases advance head by 1
+            // list of length 1 and n = 2, return head as is
             if (fastPointer.next == null) {
-                return  (i == n -1)? head.next : head;
+                return  (i == n - 1)? head.next : head;
             }
 
             // advance fastPointer by 1 step at a time

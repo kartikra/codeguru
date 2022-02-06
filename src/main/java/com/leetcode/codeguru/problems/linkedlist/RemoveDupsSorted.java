@@ -1,6 +1,5 @@
-package com.leetcode.codeguru.linkedlist;
+package com.leetcode.codeguru.problems.linkedlist;
 
-import com.leetcode.codeguru.ProblemSolution;
 import com.leetcode.codeguru.ProblemSolution;
 
 public class RemoveDupsSorted implements ProblemSolution {

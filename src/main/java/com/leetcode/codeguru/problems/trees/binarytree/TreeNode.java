@@ -1,4 +1,4 @@
-package com.leetcode.codeguru.binarytree;
+package com.leetcode.codeguru.problems.trees.binarytree;
 
 public class TreeNode {
 

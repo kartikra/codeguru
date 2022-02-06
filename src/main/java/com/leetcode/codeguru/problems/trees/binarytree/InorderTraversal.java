@@ -1,4 +1,4 @@
-package com.leetcode.codeguru.binarytree;
+package com.leetcode.codeguru.problems.trees.binarytree;
 import com.leetcode.codeguru.ProblemSolution;
 import java.util.ArrayList;
 import java.util.Arrays;

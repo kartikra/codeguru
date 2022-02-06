@@ -1,4 +1,4 @@
-package com.leetcode.codeguru.linkedlist;
+package com.leetcode.codeguru.problems.linkedlist;
 
 public class SinglyLinkedList {
 

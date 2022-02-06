@@ -1,4 +1,4 @@
-package com.leetcode.codeguru.array;
+package com.leetcode.codeguru.problems.arrays;
 import com.leetcode.codeguru.ProblemSolution;
 
 import java.util.Arrays;

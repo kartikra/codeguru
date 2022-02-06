@@ -43,13 +43,22 @@ public class RunSolution extends ClassLoader {
         if (args[0].equals("leetcode")) {
             mapLeetcode = mapLeetcodeProblems();
             items = mapLeetcode.get(args[1]).split(delimiter);
-            javaClassLoader.invokeClassMethod(packageName + "." + items[0] + "." + items[1]
-                                              ,items[2]);
-        } else
+            if (items.length == 3)
+                javaClassLoader.invokeClassMethod(packageName + ".problems."
+                        + items[0] + "." + items[1], items[2]);
 
-            javaClassLoader.invokeClassMethod(packageName + "."  + items[0] + "."  + items[1]
-                                               ,items[2]);
+            else if (items.length == 4)
+                javaClassLoader.invokeClassMethod(packageName + ".problems."
+                        + items[0] + "." + items[1] + "." + items[2], items[3]);
 
-    }
+            else
+                System.out.println("Invalid list of arguments passed for leetcode problem");
+            }
+        else if (items.length == 2)
+                javaClassLoader.invokeClassMethod(packageName
+                                + "."  + items[0], items[1]);
+        else
+            System.out.println("Invalid list of arguments passed");
+        }
 
 }
