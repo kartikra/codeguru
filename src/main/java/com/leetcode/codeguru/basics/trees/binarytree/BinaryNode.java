@@ -1,4 +1,4 @@
-package com.leetcode.codeguru.basics.trees;
+package com.leetcode.codeguru.basics.trees.binarytree;
 
 public class BinaryNode {
     public String value;

@@ -1,4 +1,8 @@
-package com.leetcode.codeguru.basics.trees;
+package com.leetcode.codeguru.basics.trees.binarytree;
+
+import com.leetcode.codeguru.basics.trees.binarytree.BinaryNode;
+import com.leetcode.codeguru.basics.trees.binarytree.BinaryTreeArray;
+import com.leetcode.codeguru.basics.trees.binarytree.BinaryTreeLL;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -65,6 +69,7 @@ public class BinaryTreeMain {
         binaryTree.search("N0");
 
     }
+
 
 
     private static BinaryNode mockData(){

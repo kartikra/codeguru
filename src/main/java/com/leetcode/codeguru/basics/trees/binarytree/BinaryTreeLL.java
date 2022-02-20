@@ -1,4 +1,6 @@
-package com.leetcode.codeguru.basics.trees;
+package com.leetcode.codeguru.basics.trees.binarytree;
+
+import com.leetcode.codeguru.basics.trees.binarytree.BinaryNode;
 
 import java.util.ArrayList;
 import java.util.List;
